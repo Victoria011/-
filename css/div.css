@@ -1,0 +1,35 @@
+#container {
+   width: 531px;
+   height: 645px;
+   margin: 0 auto;
+   background:url(../img/chessBoard.png) no-repeat;
+   background-position: center;
+   background-size: 450px 450px;
+}
+img{
+  width: 30px;
+  height: 30px;
+}
+td{
+   width: 30px;
+   height: 27px;
+}
+table{
+   border-collapse: collapse;
+   width: 450px;
+   height: 450px;
+   position: relative;
+   left: 42px;
+   top: 96px;
+   margin-bottom: 100px;
+}
+.button-wrap{
+  width:300px;
+  margin: auto;
+}
+p{
+  font-size:20px;
+}
+.btn{
+  border: 1px solid #ccc;
+}

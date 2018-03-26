@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Gomoku</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <canvas id="chess" width="450" height="450"></canvas>
+    <div class="button-wrap">
+      <p>&nbsp;当前：
+      <img id="currPlayer" src="img/black.png">
+      <button id="undoBtn" type="button" class="btn btn-outline-light btn-lg">悔棋</button>
+      <button type="button" class="btn btn-outline-light btn-lg" onclick="window.location.href=window.location">重新开始</button>
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
